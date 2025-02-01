@@ -20,7 +20,7 @@ cd /path/to/project-folder-root
 To compile the main application (ignoring JUnit test files):
 
 ```sh
-javac -encoding UTF-8 -cp src src/Main.java src/Lexer.java src/Parser.java src/Interpreter.java
+javac -encoding UTF-8 -cp src src/*.java
 ```
 
 ### **3. Run the Program**
@@ -52,6 +52,19 @@ project-folder/
 │── math-and-logic.txt      # Example script
 │── conditional-block.txt   # Example script
 │── README.md               # This file
+```
+
+### **4. Running the GUI Version**
+A simple graphical user interface (GUI) is available for selecting and running AWK files. To use the GUI:
+
+#### **1. Compile the GUI**
+```sh
+javac -encoding UTF-8 -cp src src/SimpleGUI.java
+```
+
+#### **2. Run the GUI**
+```sh
+java -cp src SimpleGUI
 ```
 
 
