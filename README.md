@@ -67,5 +67,11 @@ javac -encoding UTF-8 -cp src src/SimpleGUI.java
 java -cp src SimpleGUI
 ```
 
+![Terminal](git_images/terminal.PNG)
+
+### Search and Run Using GUI
+The GUI is only able to take in 1 file at a time, but will output to screen.
+![Gui](git_images/gui.PNG)
+
 
 

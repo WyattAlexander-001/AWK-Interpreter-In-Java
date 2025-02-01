@@ -1,6 +1,6 @@
-# This will print "Hello, my name is John and I am 30 years old.".
+# This will print "Hello, my name is Wyatt and I am 30 years old.".
 BEGIN{
-name = "John"
+name = "Wyatt"
 age = 30
 printf "Hello, my name is %s and I am %d years old.", name, age
 }
